@@ -1,12 +1,12 @@
 const { Contributors, ParentRepo } = require('./lib');
 
 
-const parentRepo = (username, repositoryName) => {
+const parentRepo = async (username, repositoryName) => {
   return await ParentRepo(username, repositoryName);
 };
 
 
-const contributors = (username, repositoryName) => {
+const contributors = async (username, repositoryName) => {
   return await Contributors(username, repositoryName);
 };
 
