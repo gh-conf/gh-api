@@ -25,7 +25,11 @@
   },
   "homepage": "https://github.com/gh-conf/gh-api#readme",
   "dependencies": {
+    "@gh-conf/gh-conf-constants": "^1.0.3",
+    "install": "^0.12.2",
     "lodash": "^4.17.11",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "npm": "^6.9.0",
+    "strmat": "^1.0.0"
   }
 }
