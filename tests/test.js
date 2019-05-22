@@ -38,7 +38,7 @@ describe('validates gh contributors api response', () => {
 
 describe('validates gh parent repo api response', () => {
   it('should return parent repo url', async () => {
-    const contributors = await ParentRepo('arshadkazmi42', 'taskcluster');
-    expect(contributors).to.equal(PARENT_REPO_URL);
+    const parentRepo = await ParentRepo('arshadkazmi42', 'taskcluster');
+    expect(parentRepo).to.equal(PARENT_REPO_URL);
   }).timeout(30000);
 });
