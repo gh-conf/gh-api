@@ -29,11 +29,14 @@ const CONTRIBUTORS_LIST = [
 const PARENT_REPO_URL = 'https://github.com/taskcluster/taskcluster';
 
 
-describe('validates gh api response', () => {
+describe('validates gh contributors api response', () => {
   it('should return list of contributors', async () => {
     const contributors = await Contributors('gh-conf', 'credits');
     expect(contributors).to.deep.equal(CONTRIBUTORS_LIST);
-  }).timeout(30000);
+  }).timeout(30000);  
+});
+
+describe('validates gh parent repo api response', () => {
   it('should return parent repo url', async () => {
     const contributors = await ParentRepo('arshadkazmi42', 'taskcluster');
     expect(contributors).to.equal(PARENT_REPO_URL);
