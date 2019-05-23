@@ -1,5 +1,5 @@
 {
-  "name": "gh-api",
+  "name": "@gh-conf/gh-api",
   "version": "1.0.0",
   "description": "Github apis used by gh-conf repositories",
   "main": "index.js",
