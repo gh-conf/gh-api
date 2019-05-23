@@ -1,6 +1,6 @@
 # gh-api
 
-[![Build Status](https://api.travis-ci.com/gh-conf/gh-api?branch=master)](https://api.travis-ci.com/gh-conf/gh-api)
+[![Build](https://img.shields.io/travis/com/gh-conf/gh-api.svg)](https://travis-ci.com/gh-conf/gh-api/)
 
 Github api module, used by gh-conf repositories
 
