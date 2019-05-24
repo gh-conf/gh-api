@@ -13,7 +13,7 @@ npm install @gh-conf/gh-api
 ## Usage
 
 ```js
-const GhApi = require('@gh-conf/gh-api');
+const { Contributors, ParentRepo } = require('@gh-conf/gh-api');
 
 const username = 'arshadkazmi42';
 const repository = 'strmat';
