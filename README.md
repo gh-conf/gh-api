@@ -13,14 +13,14 @@ npm install @gh-conf/gh-api
 ## Usage
 
 ```js
-const GhApi = require('@gh-conf/gh-api');
+const { Contributors, ParentRepo } = require('@gh-conf/gh-api');
 
 const username = 'arshadkazmi42';
 const repository = 'strmat';
 const forkedRepo = 'taskcluster';
 
 // Fetches list of contributors of the repository
-const contributors = await GhApi.contributors(username, respository);
+const contributors = await Contributors(username, respository);
 
 // Output
 /**
@@ -51,7 +51,7 @@ const contributors = await GhApi.contributors(username, respository);
 
 
 // Fetches upstream url of the repository from parent repository
-const upstream = await GhApi.parentRepo(username, forkedRepo);
+const upstream = await ParentRepo(username, forkedRepo);
 
 // Output
 // https://github.com/taskcluster/taskcluster
