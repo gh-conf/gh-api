@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@gh-conf/gh-conf-constants@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-constants/-/gh-conf-constants-1.0.3.tgz#8eb9952c7facf5eb90df46a8dbe3fe748cfbfaba"
-  integrity sha512-uQRKGgTluM3oSg4KE+WxGmhFDSDW29gXrS88crowbbsj01ZuGG/6KntEoZX35ZoESYjdggYfb9ay/PYrIQRF4Q==
+"@gh-conf/gh-conf-constants@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-constants/-/gh-conf-constants-1.0.5.tgz#d83f9907614f976fca978dd51a0f8fe45bc35c4b"
+  integrity sha512-uN02Jp+Cevo2wacL3wO+6/Sj+Q+3BvYJRr9W1meHzDFAGpPQgzBdeRBe9mRPaKhMx/Ivb2pm6g0fFS+pgFXSFA==
 
 JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
