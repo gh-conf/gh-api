@@ -8,6 +8,7 @@ const PARENT_REPO_URL = 'https://github.com/mozilla-frontend-infra/react-lazylog
 describe('validates gh contributors api response', () => {
   it('should return list of contributors', async () => {
     const contributors = await Contributors('gh-conf', 'credits');
+    console.log(contributors);
     expect(contributors[0].login).to.deep.equal('arshadkazmi42');
   });
 });
